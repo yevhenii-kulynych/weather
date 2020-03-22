@@ -1,0 +1,75 @@
+
+.item {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: darkcyan;
+  margin-bottom: 20px;
+}
+
+.region {
+  display: flex;
+  flex-direction: column;
+}
+
+.region > p {
+  margin: 0;
+  text-align: center;
+}
+
+.date {
+  color: white;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.city {
+  font-size: 14px;
+  color: white;
+}
+
+.main_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.temp_wrap {
+  width: 40%;
+}
+
+.temp_wrap > p {
+  color: white;
+  font-size: 16px;
+  margin: 0;
+}
+
+.weather_wrap {
+  width: 40%;
+}
+
+.weather_wrap > p {
+  margin: 0;
+}
+
+.weather {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description {
+  color: white;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.other_wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.other_wrap > p {
+  color: white;
+  font-size: 10px;
+}

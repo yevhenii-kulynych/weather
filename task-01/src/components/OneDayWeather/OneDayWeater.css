@@ -1,0 +1,12 @@
+
+.one-day-weather {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.title {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}

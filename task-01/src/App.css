@@ -1,0 +1,15 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 100%;
+  background-color: cadetblue;
+  padding: 10px 10px;
+}
