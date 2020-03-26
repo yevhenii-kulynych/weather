@@ -21,7 +21,6 @@ class Content extends Component {
     axios
       .get(`https://api.openweathermap.org/data/2.5/weather?q=Kharkiv,ua&units=metric&mode=json&appid=${openWeatherApiKey}`)
       .then(response => {
-        console.log(response);
         this.setState({ weather:  [response.data] })
       })
       .catch(error => error);
@@ -31,7 +30,6 @@ class Content extends Component {
     axios
       .get(`https://api.openweathermap.org/data/2.5/forecast?q=Kharkiv,ua&units=metric&mode=json&appid=${openWeatherApiKey}`)
       .then(response => {
-        console.log(response);
         this.setState({ weatherFiveDays:  [...response.data.list] })
       })
       .catch(error => error);
