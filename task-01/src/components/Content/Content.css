@@ -1,5 +1,13 @@
 
 .widgets {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.one_day,
+.five_days {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
 }
