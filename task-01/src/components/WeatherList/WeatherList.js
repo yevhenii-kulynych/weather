@@ -21,7 +21,6 @@ const WeatherList = (props) => {
               pressure={item.main.pressure}
               humidity={item.main.humidity}
               windSpeed={item.wind.speed}
-              state={props.dateState}
               date={item.dt_txt}
               parseDate={props.parseDate}
             />
